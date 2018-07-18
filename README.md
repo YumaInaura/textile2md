@@ -22,6 +22,8 @@ Or install it yourself as:
 
 ### Ruby script
 
+#### Code
+
 ```
 textile = <<-EOM
 h1. header1
@@ -36,7 +38,7 @@ EOM
 puts Textile2md.convert(textile)
 ```
 
-### Outputs
+#### Outputs
 
 ```md
 # header1
