@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "RedCloth", '~> 4.3.2'
-  spec.add_dependency "reverse_markdown"
+  spec.add_dependency "reverse_markdown", '~> 1.1.0'
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
