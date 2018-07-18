@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "RedCloth"
+  spec.add_dependency "RedCloth", '~> 4.3.2'
   spec.add_dependency "reverse_markdown"
 
   spec.add_development_dependency "bundler", "~> 1.16"
