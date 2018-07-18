@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+gem 'reverse_markdown', '1.1.0'
 
-# Specify your gem's dependencies in textile2md.gemspec
 gemspec
