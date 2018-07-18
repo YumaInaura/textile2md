@@ -2,6 +2,8 @@ PATH
   remote: .
   specs:
     textile2md (0.1.0)
+      RedCloth
+      reverse_markdown
 
 GEM
   remote: https://rubygems.org/
@@ -37,11 +39,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  RedCloth (= 4.3.2)
   bundler (~> 1.16)
   pry
   rake (~> 10.0)
-  reverse_markdown (= 1.1.0)
   rspec (~> 3.0)
   textile2md!
 
