@@ -53,7 +53,7 @@ puts Textile2md.convert(textile)
 ### Command
 
 ```
-$ textile2md some_markdown_file.txt
+$ textile2md some_textile_file.txt
 ```
 
 
