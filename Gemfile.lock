@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    textile2md (0.1.1)
-      RedCloth (~> 4.3.2)
-      reverse_markdown (~> 1.1.0)
+    textile2md (0.1.2)
+      RedCloth (~> 4.3)
+      reverse_markdown (~> 1.1)
 
 GEM
   remote: https://rubygems.org/
