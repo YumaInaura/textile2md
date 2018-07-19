@@ -4,6 +4,14 @@ Convert textile to markdown
 
 ## Installation
 
+### gem
+
+```
+$ gem install textile2md
+```
+
+### Gemfile
+
 Add this line to your application's Gemfile:
 
 ```ruby
@@ -53,7 +61,7 @@ puts Textile2md.convert(textile)
 ### Command
 
 ```
-$ textile2md some_markdown_file.txt
+$ textile2md some_textile_file.txt
 ```
 
 
@@ -65,7 +73,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/textile2md. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Yumainaura/textile2md. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -73,4 +81,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Textile2md project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/textile2md/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Textile2md project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/YumaInaura/textile2md/blob/master/CODE_OF_CONDUCT.md).
