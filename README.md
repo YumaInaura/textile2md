@@ -4,6 +4,14 @@ Convert textile to markdown
 
 ## Installation
 
+### gem
+
+```
+$ gem install textile2md
+```
+
+### Gemfile
+
 Add this line to your application's Gemfile:
 
 ```ruby
