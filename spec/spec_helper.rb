@@ -1,5 +1,6 @@
 require "bundler/setup"
 require "textile2md"
+require 'pry'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
