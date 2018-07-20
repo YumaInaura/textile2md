@@ -28,6 +28,25 @@ Or install it yourself as:
 
 ## Usage
 
+### Command
+
+
+#### Read local file
+
+```
+$ textile2md some_textile_file.txt
+```
+
+#### Read from web file
+
+```
+$ textile2md https://examle.com/some_textile.txt
+```
+
+```
+$ textile2md https://raw.githubusercontent.com/YumaInaura/textile2md/master/spec/fixtures/textile.txt
+```
+
 ### Ruby script
 
 #### Code
@@ -57,13 +76,6 @@ puts Textile2md.convert(textile)
 
 ## header2
 ```
-
-### Command
-
-```
-$ textile2md some_textile_file.txt
-```
-
 
 ## Development
 
