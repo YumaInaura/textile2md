@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 RSpec.describe Textile2md do
   it "has a version number" do
     expect(Textile2md::VERSION).not_to be nil
@@ -7,22 +9,15 @@ RSpec.describe Textile2md do
   describe '.convert' do
     subject { Textile2md.convert(textile) }
 
-    let(:textile) do
-      <<~TEXT
-        h1. header1
-        
-        * list
-        * list
-        * list
-        
-        h2. header2
-      TEXT
-    end
+    let(:textile) { File.read('spec/fixtures/textile.txt') }
 
     it "converts textile to markdown" do
-      is_expected.to include '# header1'
-      is_expected.to include '# header2'
+      is_expected.to include '# HEADER LEVEL 1'
+      is_expected.to include '## HEADER LEVEL 2'
       is_expected.to include '- list'
+      is_expected.to include '1. number list'
+      is_expected.to include '2. number list'
+      is_expected.to include '3. number list'
     end
   end
 end
