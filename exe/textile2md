@@ -3,10 +3,10 @@
 # Usage: textile2md [FILE]...
 # Usage: cat FILE | textile2md
 require 'textile2md'
-require 'webread'
+require 'open-uri'
 
   if /\Ahttps?:/ =~ ARGV[0]
-    puts WebRead.get(ARGV[0])
+    puts OpenURI.open_uri(ARGV[0])
   else
     puts Textile2md.convert(ARGF.read)
   end

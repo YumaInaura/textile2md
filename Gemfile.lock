@@ -1,10 +1,9 @@
 PATH
   remote: .
   specs:
-    textile2md (0.2.0)
+    textile2md (0.2.1)
       RedCloth
       reverse_markdown
-      webread
 
 GEM
   remote: https://rubygems.org/
@@ -35,7 +34,6 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.7.0)
     rspec-support (3.7.1)
-    webread (0.1.0)
 
 PLATFORMS
   ruby
