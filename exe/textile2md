@@ -6,7 +6,8 @@ require 'textile2md'
 require 'open-uri'
 
   if /\Ahttps?:/ =~ ARGV[0]
-    puts OpenURI.open_uri(ARGV[0])
+    filebody = OpenURI.open_uri(ARGV[0]).read
+    puts Textile2md.convert(filebody)
   else
     puts Textile2md.convert(ARGF.read)
   end

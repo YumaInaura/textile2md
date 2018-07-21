@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    textile2md (0.2.1)
+    textile2md (0.2.2)
       RedCloth
       reverse_markdown
 
